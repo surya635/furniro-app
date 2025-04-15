@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniro Shop</title>
+    <link rel="stylesheet" href="shop.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+</head>
+<body>
+    <header>
+        <header>
+            <div class="main-header">
+                <div class="header-left">
+                    <img src="assets/Meubel House_Logos-05.svg" alt="">
+                    <div class="header-logo">Furniro</div>
+                </div>
+                <div class="header-center">
+                    <a href="home.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="header-right">
+                    <button class="btn-search">
+                        <img src="assets/search.png" alt="">
+                    </button>
+                    <button class="btn-like">
+                        <img src="assets/Heart.png" alt="">
+                    </button>
+                    <button class="btn-cart">
+                        <img src="assets/cart.png" alt="">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="main-header-mobile"> 
+                <div class="header-left-mobile">
+                    <img src="assets/Meubel House_Logos-05.svg" alt="">
+                    <div class="header-logo">Furniro</div>
+                </div>
+                <div class="burger-container">
+                    <img src="./assets/burger.svg" class="burger" alt="">
+                    <div class="dropdown-item">
+                        <img src="assets/home.svg" alt="">
+                        <img src="assets/shop.svg" alt="">
+                        <img src="assets/about.svg" alt="">
+                        <img src="assets/contact.svg" alt="">
+                        <img src="assets/Heart.png" alt="">
+                        <img src="assets/cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+    </header>
+
+    <main>
+        <section class="shop-wrapper">
+            <div class="shop-text">
+                <h1>Shop</h1>
+                <div class="shop-text-wrapper">
+                    <h2>Home</h2>
+                    <img src="assets/dashicons_arrow-down-alt2.svg" alt="">
+                    <h1>shop</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop-filter">
+            <div class="filter-bar">
+                <div class="left">
+                  <button class="filter-btn"><i class="fa-solid fa-filter"></i> Filter</button>
+                  <div class="view-buttons">
+                    <button><i class="fa-solid fa-th"></i></button>
+                    <button><i class="fa-solid fa-bars"></i></button>
+                  </div>
+                  <div class="results-count">Showing 1–16 of 32 results</div>
+                </div>
+                
+                <div class="right">
+                  <div class="show">
+                    <label for="show">Show</label>
+                    <input type="number" id="show" value="16" />
+                  </div>
+                  <div class="sort-by">
+                    <label for="sort">Sort by</label>
+                    <select id="sort">
+                      <option>Default</option>
+                      <option>Newest</option>
+                      <option>Price: Low to High</option>
+                      <option>Price: High to Low</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-wrap">
+            <div class="shop-content">
+                <div class="carousel-text">
+                    <h1>50+ Beautiful rooms inspiration</h1>
+                    <p>Our designer already made a lot of beautiful prototype of rooms that inspire you</p>
+                    <button>Explore More</button>
+                  </div>
+                  <div class="carousel-wrapper">
+              
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
+              
+                    <div class="carousel">
+                      <div class="slide slide1">
+                        <img src="assets/Rectangle 24.svg" alt="Room 1">
+                        <div class="caption">
+                          <span>01 — Bed Room</span>
+                          <h2>Inner Peace</h2>
+                          <label for="slide2" class="next-btn">→</label>
+                        </div>
+                      </div>
+                      <div class="slide slide2">
+                        <img src="assets/Rectangle 24.svg" alt="Room 2">
+                        <div class="caption">
+                          <span>02 — Dining Room</span>
+                          <h2>Bright Light</h2>
+                          <label for="slide3" class="next-btn">→</label>
+                        </div>
+                      </div>
+                      <div class="slide slide3">
+                        <img src="assets/Rectangle 24.svg" alt="Room 3">
+                        <div class="caption">
+                          <span>03 — Living Room</span>
+                          <h2>Calm Space</h2>
+                          <label for="slide4" class="next-btn">→</label>
+                        </div>
+                      </div>
+                      <div class="slide slide4">
+                        <img src="assets/Rectangle 24.svg" alt="Room 4">
+                        <div class="caption">
+                          <span>04 — Living Room</span>
+                          <h2>Calm Space</h2>
+                          <label for="slide5" class="next-btn">→</label>
+                        </div>
+                      </div>
+                      <div class="slide slide5">
+                        <img src="assets/Rectangle 24.svg" alt="Room 5">
+                        <div class="caption">
+                          <span>05 — Living Room</span>
+                          <h2>Calm Space</h2>
+                          <label for="slide6" class="next-btn">→</label>
+                        </div>
+                      </div>
+                      <div class="slide slide6">
+                        <img src="assets/Rectangle 24.svg" alt="Room 6">
+                        <div class="caption">
+                          <span>06 — Living Room</span>
+                          <h2>Calm Space</h2>
+                          <label for="slide1" class="next-btn">→</label>
+                        </div>
+                      </div>
+                    </div>
+              
+                    <div class="dots">
+                      <label for="slide1"></label>
+                      <label for="slide2"></label>
+                      <label for="slide3"></label>
+                      <label for="slide4"></label>
+                      <label for="slide5"></label>
+                      <label for="slide6"></label>
+                    </div>
+                  </div>
+            </div>
+            
+
+        </section>
+
+        <section class="shop-content">
+            <div class="gallery-container" id="gallery">
+                <h1>Share your setup with <br><span>#FuniroFurniture</span></h1>
+                <div class="grid-gallery">
+                    <img src="assets/Rectangle 36.svg" alt="">
+                    <img src="assets/Rectangle 37.svg" alt="">
+                    <img src="assets/Rectangle 38.svg" alt="">
+                    <img src="assets/Rectangle 39.svg" alt="">
+                    <img src="assets/Rectangle 40.svg" alt="">
+                    <img src="assets/Rectangle 41.svg" alt="">
+                    <img src="assets/Rectangle 43.svg" alt="">
+                    <img src="assets/Rectangle 44.svg" alt="">
+                    <img src="assets/Rectangle 45.svg" alt="">
+                  </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+   
+</body>
+
+</html>
